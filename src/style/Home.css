@@ -1,0 +1,329 @@
+/*Hero*/
+.hero-container{
+    width: 100vw;
+    height: 90vh;
+    border: 0px solid grey;
+    display: flex;/*agar bersebelahan*/
+ }
+
+.hero1,
+.hero2{
+    border: 0px solid blue ;
+    height: 80%;
+}
+
+.hero1{
+    width: 45%;
+    padding-top: 10vh;
+    margin-left: 5vh;
+}
+
+.hero1 button{
+    width: 32vh;
+    height: 6vh;
+    margin-top: 5vh;
+    border-radius: 10px;
+    background-color: #164A41;
+    border: 0px solid grey;
+    color: white;
+}
+
+.hero1 button:hover{
+    background-color: white;
+    border: 1px solid #164A41;
+    color: #164A41;
+}
+.hero2{
+    width: 55%;
+    display: flex;
+    padding-top: 10vh;
+    padding-right: 5vh;
+}
+
+.hero-pic1{
+    width: 60%;
+    height: 70%;
+    border: 0px solid blue;
+}
+.hero-pic1 img{
+    padding-top: 5vh;
+    padding-left: 2vh;
+    width: 80vh;
+    height: 50vh;
+    position: absolute; /*bisa menimpa container lain*/
+}
+.hero-pic2{
+    width: 40%;
+    height: 90%;
+    border: 0px solid green;
+    background-color: #164A41;
+}
+
+/*End Hero*/
+
+/*About*/
+.about-container{
+    width: 100vw;
+    height: 85vh;
+    border: 0px solid grey;
+    display: flex;
+    padding-top: 20vh;
+}
+.about1{
+    height: 80%;
+    width: 50%;
+    border: 0px solid red;
+    display: flex;
+}
+.about-pic1{
+    width: 65%;
+    height: 80%;
+    border: 0px solid blue;
+    padding-left: 2vh;
+}
+.about-pic1 img{
+    width: 70vh;
+    height: 60vh;
+    margin-left: 15vh;
+}
+.about-pic2{
+    width: 40%;
+    height: 80%;
+    border: 0px solid red;
+    float: left;
+}
+.about-pic2 img{
+    width: 40vh;
+    height: 40vh;
+    padding-top: 25vh;
+}
+.about2{
+    height: 80%;
+    width: 50%;
+    padding-left: 20vh;
+    padding-top: 10vh;
+    padding-right: 5vh;
+    border: 0px solid green;
+}
+.about2 button{
+    border: 1px solid #164A41;
+    border-radius: 5px;
+    width: 20vh;
+    height: 5vh;
+    float: right;
+    background-color: white;
+}
+
+.about2 button:hover{
+    background-color: #164A41;
+    color: white;
+}
+
+/*End About*/
+
+/*Benefit*/
+.benefit-container{
+    width: 100vw;
+    height: 85vh;
+    border: 0px solid grey;
+    display: flex;
+    padding-top: 15vh;
+}
+
+.benefit1{
+    padding-left: 10vh;
+    padding-top: 5vh;
+    border: 0px solid grey;
+    width: 40%;
+    height: 95%;
+}
+.benefit1 p{
+    color: '#4D774E';
+    font-weight: bold;
+    font-size: 20px;    
+}
+.benefit1 p span{
+    margin-left: 4.5vh;
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+}
+.benefit2{
+    border: 0px solid grey;
+    width: 60%;
+    height: 100%;
+}
+.benefit2 img{
+    width: 90vh;
+    height: 85vh;
+}
+/*End Benefit*/
+
+/* product-container*/
+.product-container{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid grey;
+    background-color: #092520;
+    padding-top: 5vh;
+}
+.title h2{
+    font-size: 25px;
+    text-align: center;
+    color: #F1F5F1;
+    font-family: 'Merriweather', serif;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid grey;
+    width: 35vh;
+    height: 50%;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
+    border-radius: 5px;
+    padding: 1.5vh;
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card img{
+    width: 70%;
+    height: 60%;
+}
+
+
+
+
+/* end product-container*/
+
+/*tujuan*/
+.tujuan-container{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid grey;
+    padding-top: 5vh;
+    background-color: #F1F5F1;
+}
+
+.isi-container{
+    border: 0px solid red;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.isi{
+    border: 0px solid blue;
+    height: 60%;
+    width: 25%;
+    align-items: center;
+    padding: 2vh;
+}
+
+.isi img{
+    margin-bottom: 4vh;
+    margin-left: 18vh;
+    height: 5vh;
+    width: 5vh;
+}
+.isi p{
+    text-align: center;
+    font-size: 15px;
+}
+/*end tujuan*/
+
+/* donation */
+.donation-container{
+    background-color: #164A41;
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+}
+.donation{
+    background-image:url('/public/images/background.png');
+    width: 100%;
+    height: 70%;
+    padding-top: 15vh;
+}
+.donation button{
+    width: 20vh;
+    height: 5vh;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #F1B24A;
+    border-radius: 5px;
+    border: #F1B24A;
+    color: white;
+}
+.donation button:hover{
+    background-color: white;
+    color: #F1B24A;
+}
+/*end donation*/
+
+/*footer*/
+.footer{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    padding-top: 5vh;
+}
+.footer-container{
+    border: 0px solid grey;
+    padding-top: 5vh;
+    align-items: center;
+    width: 30%;
+    height: 50%;
+    margin-left: 4vh;
+}
+
+.footer-container p,h3{
+    text-align: center;
+    font-size: 10px;
+}
+
+.footer-container img{
+    margin-bottom: 5vh;
+    margin-left: 20vh;
+}
+
+/*end footer*/
+
+/* footer2 */
+.footer2{
+    width: 100vw;
+    height: 15vh;
+    background-color: #092520;
+    padding-top: 5vh;
+    border: 1px solid white;
+}
+
+.footer2 .tittle{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 70vh;
+}
+.social-media{
+    display: flex;
+    color: white;
+    padding-top: 2vh;
+    padding-left: 55vh;
+}
+.socmed{
+    margin-left: 3vh;
+}
+
+
+/* end footer2 */

@@ -1,0 +1,75 @@
+.Navbar-Container {
+    background-color: #ffffff;
+    overflow: hidden;
+    color: #373C37;
+    margin-bottom: 0vh;
+    text-align: center;
+  }
+  
+  .Navbar-Container  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+  }
+  
+  .Navbar-Container  li {
+    float: left;
+    padding: 10px;
+    color: #373C37;
+    margin-top: 2vh;
+    margin-left: 3vh;
+  }
+  .Navbar-Container li:hover{
+    color: #164A41;
+    border-bottom:1px solid #164A41;
+  }
+
+  .Navbar-Container button{
+    background-color: #164A41;
+    color: white;
+    width: 15vh;
+    height: 5vh;
+    margin-top: 10px;
+    border: 1px solid #164A41;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .Navbar-Container button:hover{
+    background-color: white;
+    border: 1px solid #164A41;
+    color: #164A41;
+  }
+  .Navbar-Container  a {
+    display: block;
+    color: #373C37;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .Navbar-Container  a:hover {
+    color: white;
+  }
+
+  img{
+    height: 60px;
+    width: 80px;
+    float: left;
+    margin-left: 5vh;
+    margin-right: 40vh;
+    border-right: 0px solid #A5AAA5;
+  }
+
+  .shop{
+    border-left: 1px solid #A5AAA5;
+    height: 48px;
+    margin-left: 30vh;
+  }
+
+  .shop i:hover{
+    color: white;
+  }
