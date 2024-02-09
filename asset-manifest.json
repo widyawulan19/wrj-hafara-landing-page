@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wrj-hafara-landing-page/static/css/main.3ec20b70.css",
+    "main.js": "/wrj-hafara-landing-page/static/js/main.b3f49ca1.js",
+    "static/js/592.417e30e8.chunk.js": "/wrj-hafara-landing-page/static/js/592.417e30e8.chunk.js",
+    "static/media/background.png": "/wrj-hafara-landing-page/static/media/background.e88ceb1a77c9ceb912f6.png",
+    "index.html": "/wrj-hafara-landing-page/index.html",
+    "main.3ec20b70.css.map": "/wrj-hafara-landing-page/static/css/main.3ec20b70.css.map",
+    "main.b3f49ca1.js.map": "/wrj-hafara-landing-page/static/js/main.b3f49ca1.js.map",
+    "592.417e30e8.chunk.js.map": "/wrj-hafara-landing-page/static/js/592.417e30e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ec20b70.css",
+    "static/js/main.b3f49ca1.js"
+  ]
+}
